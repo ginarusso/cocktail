@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import CocktailList from "./components/CocktailList";
+import Cocktail from "./components/Cocktail";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <CocktailList />
+    </>
+  );
+};
 
-export default App
+export default App;
